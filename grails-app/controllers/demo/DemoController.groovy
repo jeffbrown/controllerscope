@@ -1,6 +1,10 @@
 package demo
 
 class DemoController {
-
-    def index() { }
+    public DemoController() {
+        println 'a new controller is being created'
+    }
+    def index() {
+        render 'the demo controller rendered this'
+    }
 }
